@@ -11,8 +11,11 @@
 </head>
 <body>
     <header class="bar">
-        <p class="highscore">View Highscore</p>
-        <p class="time" id="time"></p>
+        <p class="view-highscore" id='viewscore'>View Highscore</p>
+        <div class="timer">
+            <p>Time:</p>
+            <p class="time" id="time"></p>
+        </div>
     </header>
     <section class="main" id="main">
 
@@ -23,88 +26,98 @@
 
     <section class="card-1" id="card-1">
         <h1 class="header" id="question">Which built-in method calls a function for each element in the array?</h1>
-        <button id='option1'>while()</button>
-        <button id='option2'>loop()</button>
-        <button id='option3'>forEach()</button>
-        <button id='option4'>if()</button>
+        <button id='option1' onclick="subtractTimer(event)">while()</button>
+        <button id='option2' onclick="subtractTimer(event)">loop()</button>
+        <button id='option3' onclick="subtractTimer(event)">forEach()</button>
+        <button id='option4' onclick="subtractTimer(event)">if()</button>
     </section>
 
     <section class="card-2" id="card-2">
         <h1 class="header" id="question">Which built-in method returns the calling string value converted to lower case?</h1>
-        <button id='option1'>toLowerCase()</button>
-        <button id='option2'>toLower()</button>
-        <button id='option3'>changeCase(case)</button>
-        <button id='option4'>None these choices</button>
+        <button id='option1' onclick="subtractTimer(event)">toLowerCase()</button>
+        <button id='option2' onclick="subtractTimer(event)">toLower()</button>
+        <button id='option3' onclick="subtractTimer(event)">changeCase(case)</button>
+        <button id='option4' onclick="subtractTimer(event)">None these choices</button>
     </section>
 
     <section class="card-3" id="card-3">
         <h1 class="header" id="question">Which of the following function of Number object defines how many total digits to display of a number?</h1>
-        <button id='option1'>toExponential()</button>
-        <button id='option2'>toFixed()</button>
-        <button id='option3'>toLocaleStorage()</button>
-        <button id='option4'>toPrecision()</button>
+        <button id='option1' onclick="subtractTimer(event)">toExponential()</button>
+        <button id='option2' onclick="subtractTimer(event)">toFixed()</button>
+        <button id='option3' onclick="subtractTimer(event)">toLocaleStorage()</button>
+        <button id='option4' onclick="subtractTimer(event)">toPrecision()</button>
     </section>
 
     <section class="card-4" id="card-4">
         <h1 class="header" id="question">Which of the following function of Array object calls a function for each element in the array?</h1>
-        <button id='option1'>concat()</button>
-        <button id='option2'>ever()</button>
-        <button id='option3'>filter()</button>
-        <button id='option4'>forEach()</button>
+        <button id='option1' onclick="subtractTimer(event)">concat()</button>
+        <button id='option2' onclick="subtractTimer(event)">ever()</button>
+        <button id='option3' onclick="subtractTimer(event)">filter()</button>
+        <button id='option4' onclick="subtractTimer(event)">forEach()</button>
     </section>
 
     <section class="card-5" id="card-5">
         <h1 class="header" id="question">The "function" and " var" are known as:</h1>
-        <button id='option1'>Keywords</button>
-        <button id='option2'>Data types</button>
-        <button id='option3'>Declaration statements</button>
-        <button id='option4'>Prototypes</button>
+        <button id='option1' onclick="subtractTimer(event)">Keywords</button>
+        <button id='option2' onclick="subtractTimer(event)">Data types</button>
+        <button id='option3' onclick="subtractTimer(event)">Declaration statements</button>
+        <button id='option4' onclick="subtractTimer(event)">Prototypes</button>
     </section>
 
     <section class="card-6" id="card-6">
         <h1 class="header" id="question">Which of the following is a valid type of function javascript supports?</h1>
-        <button id='option1'>named function</button>
-        <button id='option2'>anonymous function</button>
-        <button id='option3'>Both</button>
-        <button id='option4'>None</button>
+        <button id='option1' onclick="subtractTimer(event)">named function</button>
+        <button id='option2' onclick="subtractTimer(event)">anonymous function</button>
+        <button id='option3' onclick="subtractTimer(event)">Both</button>
+        <button id='option4' onclick="subtractTimer(event)">None</button>
     </section>
 
     <section class="card-7" id="card-7">
         <h1 class="header" id="question">Which of the following function of Array object removes the first element from an array and returns that element?</h1>
-        <button id='option1'>reverse()</button>
-        <button id='option2'>shift()</button>
-        <button id='option3'>slice()</button>
-        <button id='option4'>some()</button>
+        <button id='option1' onclick="subtractTimer(event)">reverse()</button>
+        <button id='option2' onclick="subtractTimer(event)">shift()</button>
+        <button id='option3' onclick="subtractTimer(event)">slice()</button>
+        <button id='option4' onclick="subtractTimer(event)">some()</button>
     </section>
 
     <section class="card-8" id="card-8">
         <h1 class="header" id="question"> Is JavaScript a case-sensitive language?</h1>
-        <button id='option1'>True</button>
-        <button id='option2'>False</button>
+        <button id='option1' onclick="subtractTimer(event)">True</button>
+        <button id='option2' onclick="subtractTimer(event)">False</button>
         
     </section>
 
     <section class="card-9" id="card-9">
         <h1 class="header" id="question">Which of the following function of String object returns the index within the calling String object of the last occurrence of the specified value?</h1>
-        <button id='option1'>lasIndexOf()</button>
-        <button id='option2'>search()</button>
-        <button id='option3'>substr()</button>
-        <button id='option4'>indexOf()</button>
+        <button id='option1' onclick="subtractTimer(event)">lasIndexOf()</button>
+        <button id='option2' onclick="subtractTimer(event)">search()</button>
+        <button id='option3' onclick="subtractTimer(event)">substr()</button>
+        <button id='option4' onclick="subtractTimer(event)">indexOf()</button>
     </section>
 
     <section class="card-10" id="card-10">
         <h1 class="header" id="question">Why so JavaScript and Java have similar name?</h1>
-        <button id='option1'>JavaScript is a stripped-down version of Java</button>
-        <button id='option2'>JavaScript's syntax is loosely based on Java's</button>
-        <button id='option3'>They both originated on the island of Java</button>
-        <button id='option4'>None</button>
+        <button id='option1' onclick="subtractTimer(event)">JavaScript is a stripped-down version of Java</button>
+        <button id='option2' onclick="subtractTimer(event)">JavaScript's syntax is loosely based on Java's</button>
+        <button id='option3' onclick="subtractTimer(event)">They both originated on the island of Java</button>
+        <button id='option4' onclick="subtractTimer(event)">None</button>
+    </section>
+
+    <section class="card-highscores" id="card-highscores">
+        <h1 class="header" id="question">Scores</h1>
+        <ol class="scores" id='scores'>
+            
+        </ol>
+        <button id="goback">Go Back</button>
+        <button id="clear">Clear Scores</button>
+
     </section>
 
     <form class="card-form" id="card-form">
-        <h1 class="header" id="question">Enter Initials:</h1>
-        <textarea name="initials" id="" cols="1" rows="1"></textarea>
-        <input type="submit">
-        <!-- <button id='submitbtn'>Submit</button> -->
+        <h1 class="header" id="question">Enter Initials</h1>
+        <textarea name="initials" id="" cols="6" rows="1"></textarea>
+        <input id="btn"  placeholder="Initials Here" type="submit">
+        
         
     </form>
 
