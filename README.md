@@ -2,8 +2,9 @@
 This webpage should quiz you on some javscript knowledge!
 Link to website: https://rubbertoe64.github.io/quiz-page/
 
-![Project Image](images/quiz%20page.png)
 
+
+![quiz page](https://user-images.githubusercontent.com/71856810/149043831-a55b836e-2b1b-45cb-8c3a-82e5ced97ae9.PNG)
 
 
 ## User Story
